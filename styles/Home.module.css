@@ -1,15 +1,12 @@
 .container {
-  padding: 0 2rem;
-}
-
-.main {
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  padding: 0 2rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
+  height: 100vh;
 }
 
 .footer {
@@ -29,7 +26,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #163b66;
   text-decoration: none;
 }
 
@@ -45,7 +42,6 @@
   font-size: 4rem;
 }
 
-.title,
 .description {
   text-align: center;
 }
@@ -82,14 +78,14 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 450px;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #104786;
+  border-color: #1a5496;
 }
 
 .card h2 {
@@ -98,9 +94,23 @@
 }
 
 .card p {
+  font-family:'Courier New', Courier, monospace;
   margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding: 1rem 0;
+}
+
+.card a {
+  padding: 5px 10px;
+  border: 0px solid grey;
+  border-radius: 5px;
+  background-color: hsl(212, 81%, 96%);
+}
+
+.card span {
+  color: #19334e;
+  font-size: 0.8em;
 }
 
 .logo {
