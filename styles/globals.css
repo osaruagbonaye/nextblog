@@ -52,3 +52,7 @@ a {
   color: black;
 }
 
+.hasIcon {
+  display: flex;
+  align-items: center;
+}
