@@ -94,7 +94,6 @@
 }
 
 .card p {
-  font-family:'Courier New', Courier, monospace;
   margin: 0;
   font-size: 1rem;
   line-height: 1.2rem;
@@ -123,4 +122,9 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
 }

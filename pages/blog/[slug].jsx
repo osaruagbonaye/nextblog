@@ -7,7 +7,7 @@ export default function BlogPost(props) {
         <div className={styles.container}>
             <div className={styles.card}>
             <h1>{post.title}</h1>
-            <img src={post.image} alt={post.slug}/>
+            <img className={styles.image} src={post.image} alt={post.slug}/>
             <span>{post.author} | </span>
             <span>{post.publishedDate}</span>
             <p>{post.body}</p>
