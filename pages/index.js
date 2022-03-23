@@ -5,7 +5,6 @@ import { getPosts } from '../data/posts';
 
 export default function Home() {
   const posts = getPosts();
-  const mainSiteUrl = '';
   return (
    <div className={styles.container}>
       <Head>
@@ -28,7 +27,7 @@ const BlogPostCard = (props) => {
       <span className={styles.smallFonts} >{data.author} | </span>
       <span className={styles.smallFonts}>{data.publishedDate}</span>
       <p>{data.excerpt}</p>
-      <Link href={`/blog/${data.slug}`}><a>Read more</a></Link>
+      <Link className="button primary" href={`/blog/${data.slug}`}><a>Read more</a></Link>
     </div>
   );
 }
